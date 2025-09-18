@@ -1,7 +1,7 @@
 <?php
 // Site Information
 $conf['site_name'] = "Task App";
-$conf['site_url'] = "http://localhost/muk";
+$conf['site_url'] = "http://localhost/task_app";
 $conf['site_email'] = "linda.nyika@strathmore.edu";
 
 // Site Language
