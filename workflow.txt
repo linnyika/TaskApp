@@ -1,0 +1,24 @@
+Git Workflow - Task App
+
+1. Initialize the local repository:
+   git init
+
+2. Stage all files:
+   git add .
+
+3. Commit the staged files:
+   git commit -m "Signup form, mail sending, and users list feature"
+
+4. Create a new feature branch:
+   git checkout -b feature/email
+
+5. Add the remote GitHub repository:
+   git remote add origin https://github.com/linnyika/TaskApp.git
+
+6. Push the feature branch to GitHub:
+   git push -u origin feature/email
+
+7. Merge the feature branch into main:
+   git checkout main
+   git merge feature/email
+   git push origin main
